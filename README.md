@@ -2,11 +2,11 @@ An ubuntu 16.04 vagrant box running Elasticsearch 2.x.
 
 # Usage
 
-    $>vagrant up
+    $ vagrant up
 
 to start (and deploy if needed) Elasticsearch in the Vagrant box. A Vagrant box will startup Elasticsearch at localhost:9200.
 
-    $>vagrant halt
+    $ vagrant halt
 
 to halt the box
 
@@ -17,5 +17,4 @@ Modify Vagrantfile to your hearts content to control RAM/CPU allocation, IP addr
 
 # Test Usage
 
-
-  $ curl -X GET 'http://33.33.33.1:9200'
+  	$ curl -X GET 'http://33.33.33.1:9200'
